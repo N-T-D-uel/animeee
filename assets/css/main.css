@@ -1,0 +1,121 @@
+/*Header*/
+
+.header-top {
+    width: 100%;
+    height: 20px;
+    background-color: var(--white-color);
+    padding: 0 30px;
+}
+.header-top__list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+.header-top__list-item-link {
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+    padding: 0 16px;
+    font-size: 1.2rem;
+}
+.header-top__list-item-link:hover {
+    border-top: 2px solid #000;
+}
+.header-center {
+    width: 100%;
+    height: 160px;
+    background-color: var(--primary-color);
+    display: flex;
+}
+.header-center__logo {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 0 18px;
+}
+.header-center__logo-img {
+    width: 400px;
+    height: 75px;
+}
+.header-center__logo-vn {
+    font-size: 1.8rem;
+    color: var(--white-color);
+    left: -160px;
+    display: block;
+    top: -10px;
+    position: relative;
+}
+.header-center__navbar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0 28px;
+}
+
+.header-center__navbar-item {
+   position: relative;
+}
+.header-center__navbar-item-icon {
+    font-size: 1.6rem;
+    margin: 2px;
+}
+.header-center__navbar-item-link {
+    text-decoration: none;
+    color: var(--white-color);
+    display: block;
+    border: 3px solid var(--white-color);
+    border-radius: 5px;
+    min-width: 120px;
+    min-height: 32px;
+    padding: 0 8px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 8px;
+    line-height: 32px;
+}
+.header-center__navbar-item-link:hover {
+    /* background-color: rgba(73, 188, 232, 1); */
+    box-shadow: 0 3px 3px -2px var(--text-color);
+}
+.header-center__navbar-item-link--active {
+    background-color: var(--white-color);
+    color: #e34e09;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+    min-width: 126px;
+    min-height: 35px;
+    line-height: 35px;
+}
+.header-center__navbar-item-link--active:hover {
+    background-color: #f1f1f1;
+}
+.header-bottom_list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 70px;
+    height: 50px;
+    
+}
+.header-bottom_item-link {
+    text-decoration: none;
+    padding: 16px 12px ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    display: block;
+    line-height: 50px;
+}
+.header-bottom_search {
+
+}
+.header-bottom_search-icon {
+
+}
